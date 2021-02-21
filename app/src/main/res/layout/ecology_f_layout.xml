@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_and_shadow"
+        android:padding="15dp"
+        android:layout_margin="16dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/tree"
+            android:id="@+id/imageView9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="AKO TY POMÔŽEŠ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView9"
+            android:layout_toEndOf="@+id/imageView9"
+            android:id="@+id/textView17"
+            android:layout_marginLeft="10dp"
+            android:textColor="#212121"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView9"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:text="Stačí ak každý deň do práce či do školy alebo kamkoľvek inam zodvihneš čo i len 1 odpad (najlepšie plasty, pretože príroda ich nevie rozložiť) a vhodíte ich do odpadkového koša a podľa druhu odpadu zaloguješ odpad v aplikácii. Týmto spôsobom sa stávaš Wastehunterom.\nĎakujeme, že s nami pomáhaš prírode a zkrášluješ naše prostredie.\n\nKliknutím na tlačidlo nižšie môžete zdieľať našu aplikáciu cez rôzne služby ako Facebook, Messenger, Gmail... a pozvať svojich priateľov, aby sa stali taktiež Wastehuntermi."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textColor="#212121" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:elevation="11dp"
+                    android:background="@drawable/share"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:onClick="share" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

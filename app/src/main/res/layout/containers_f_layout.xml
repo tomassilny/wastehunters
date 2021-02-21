@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_and_shadow"
+        android:padding="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/trash_black"
+            android:id="@+id/imageView9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TYPY KONTAJNEROV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView9"
+            android:layout_toEndOf="@+id/imageView9"
+            android:id="@+id/textView17"
+            android:layout_marginLeft="10dp"
+            android:textColor="#212121"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView9"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Ak sa nachádzajú v tvojej blízkosti kontajnery pre separovanie odpadu, tak tu nájdeš pomôcku pre lepšie rozlíšenie, ktorá farba kontajnera slúži na čo a čo môžeš vhodiť do konkrétneho kontajnera a čo nie."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textColor="#212121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <ImageView
+                        app:srcCompat="@drawable/plast_t"
+                        android:id="@+id/imageView4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:text="Žltý kontajner - určený na plasty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView18"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:layout_toEndOf="@+id/imageView4"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:textSize="13sp" />
+
+                    <RelativeLayout
+                        android:background="@drawable/round"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_below="@+id/textView18"
+                        android:layout_alignLeft="@+id/textView18"
+                        android:layout_alignStart="@+id/textView18"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="7dp"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:onClick="y_bad">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/cancel"
+                            android:id="@+id/imageView15"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:layout_toEndOf="@+id/imageView4"
+                        android:layout_marginTop="40dp"
+                        android:onClick="y_ok">
+
+                        <ImageView
+                            app:srcCompat="@drawable/checked"
+                            android:id="@+id/imageView10"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="285dp">
+
+                    <ImageView
+                        app:srcCompat="@drawable/glass_t"
+                        android:id="@+id/imageView44"
+                        android:layout_below="@+id/textView4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:text="Zelený kontajner - určený na sklo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView188"
+                        android:layout_marginTop="16dp"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView44"
+                        android:layout_toEndOf="@+id/imageView44" />
+
+                    <RelativeLayout
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:onClick="g_ok"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView44"
+                        android:layout_toEndOf="@+id/imageView44"
+                        android:layout_marginTop="40dp">
+
+                        <ImageView
+                            app:srcCompat="@drawable/checked"
+                            android:id="@+id/imageView110"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/round"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:onClick="g_bad"
+                        android:layout_toRightOf="@+id/imageView44"
+                        android:layout_toEndOf="@+id/imageView44"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="60dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/cancel"
+                            android:id="@+id/imageView158"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="100dp">
+
+                    <ImageView
+                        app:srcCompat="@drawable/paper_t"
+                        android:id="@+id/imageView423"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:text="Modrý kontajner - určený na papier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView182"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView423"
+                        android:layout_toEndOf="@+id/imageView423"
+                        android:layout_marginTop="15dp" />
+
+                    <RelativeLayout
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:onClick="b_ok"
+                        android:layout_toRightOf="@+id/imageView423"
+                        android:layout_toEndOf="@+id/imageView423"
+                        android:layout_marginTop="40dp">
+
+                        <ImageView
+                            app:srcCompat="@drawable/checked"
+                            android:id="@+id/imageView1000"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:background="@drawable/round"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:onClick="b_bad"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imageView423"
+                        android:layout_toEndOf="@+id/imageView423"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="40dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:srcCompat="@drawable/cancel"
+                            android:id="@+id/imageView156"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

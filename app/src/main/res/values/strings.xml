@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Wastehunters</string>
+    <string name="title_activity_main_panel">Wastehunters</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">1376769242345844</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_string">Vitaj Wastehunter </string>
+    <string name="loading_dialog_box">Prihlasuje sa. Prosím počkajte...</string>
+    <string name="dialog_box_title">Vyberte druh odpadu</string>
+    <string name="cancel">zrušiť</string>
+    <string name="paper">Papier</string>
+    <string name="plast">Plast</string>
+    <string name="textil">Textil</string>
+    <string name="other">Iné</string>
+    <string name="bio_waste">Bio odpad</string>
+    <string name="glass">Sklo</string>
+    <string name="metals">Kov</string>
+    <string name="wood_g_l">Drevo, guma, koža</string>
+    <string name="wood_g_l_short">Drevo...</string>
+    <string name="snack_bar_text">Super! Odpad úspešne zalogovaný.</string>
+    <string name="no_internet">Pre prihlásenie sa prosím najprv pripojte k internetu.</string>
+    <string name="intro_text_1">Zbieraj odpad a pomôž tak prírode</string>
+</resources>
