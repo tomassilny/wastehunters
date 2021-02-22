@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Hlavné">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home"
+                    android:title="Domov"
+                    android:checkable="true"
+                    android:enabled="true" />
+                <item
+                    android:id="@+id/nav_addwaste"
+                    android:icon="@drawable/trash"
+                    android:title="Zalogovať odpad" />
+                <item
+                    android:id="@+id/nav_statistics"
+                    android:icon="@drawable/statistic"
+                    android:title="Štatistiky" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Ekológia">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_ecology"
+                android:icon="@drawable/tree"
+                android:title="Ako ty pomôžeš?" />
+            <item
+                android:id="@+id/nav_containers"
+                android:icon="@drawable/trash_black"
+                android:title="Typy kontajnerov" />
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/www"
+                android:title="Web" />
+        </group>
+        </menu>
+    </item>
+    <item android:title="Ostatné">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="O aplikácii" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Ohodnotiť" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Zdielať" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Odísť" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
