@@ -1,0 +1,17 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="GAAXGY10E6116N6" />
+          </Key>
+        </key>
+        <name value="Device" />
+        <target value="Android 7.0" />
+        <api value="androidversion:24:null:null:true" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
