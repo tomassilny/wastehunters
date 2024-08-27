@@ -8,7 +8,7 @@
             <value value="GAAXGY10E6116N6" />
           </Key>
         </key>
-        <name value="Device" />
+        <name value="asus ASUS_X008D" />
         <target value="Android 7.0" />
         <api value="androidversion:24:null:null:true" />
       </PhysicalDevice>
